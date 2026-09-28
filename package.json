@@ -1,0 +1,53 @@
+{
+  "name": "rustforge",
+  "displayName": "RustForge",
+  "description": "A lean extension pack for Rust in VS Code: rust-analyzer language support, CodeLLDB debugging, Code Runner, Cargo.toml editing with dependency insights, and Claude Code AI assistance.",
+  "version": "1.0.0",
+  "publisher": "jaugiust",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waynust/rustforge"
+  },
+  "bugs": {
+    "url": "https://github.com/waynust/rustforge/issues"
+  },
+  "homepage": "https://github.com/waynust/rustforge#readme",
+  "icon": "icon.png",
+  "categories": [
+    "Extension Packs",
+    "Programming Languages",
+    "Debuggers"
+  ],
+  "keywords": [
+    "rust",
+    "rustlang",
+    "rust-analyzer",
+    "cargo",
+    "crates",
+    "crates.io",
+    "cargo.toml",
+    "toml",
+    "lldb",
+    "codelldb",
+    "debugger",
+    "code runner",
+    "dependencies",
+    "ai",
+    "claude",
+    "extension pack",
+    "rust pack",
+    "rustforge"
+  ],
+  "extensionPack": [
+    "rust-lang.rust-analyzer",
+    "formulahendry.code-runner",
+    "vadimcn.vscode-lldb",
+    "tamasfe.even-better-toml",
+    "fill-labs.dependi",
+    "anthropic.claude-code"
+  ]
+}
